@@ -1,0 +1,9 @@
+{
+  "tests_passed": null,
+  "golden_set_complete": false,
+  "data_leakage_check": false,
+  "model_artifacts_present": true,
+  "evaluation_complete": false,
+  "judge_evaluation_complete": false,
+  "human_agreement_available": false
+}
