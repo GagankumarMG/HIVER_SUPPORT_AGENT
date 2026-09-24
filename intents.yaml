@@ -1,0 +1,81 @@
+# NOTE: This taxonomy is a STARTING TEMPLATE.
+# The assignment requires the final taxonomy to be derived from the selected
+# brand's actual historical data (see scripts/03_discover_intents.py and
+# src/intents/discover.py). Running discovery will regenerate this file with
+# cluster-grounded intent names, descriptions, and real examples pulled from
+# the data. Until real data is processed, the entries below are placeholders
+# with empty `examples` fields (never filled with fabricated data) so the
+# rest of the pipeline (classifier, retrieval, escalation) has a well-formed
+# schema to develop and test against on synthetic data.
+
+taxonomy_status: "PLACEHOLDER_PENDING_DISCOVERY_ON_REAL_DATA"
+
+intents:
+  - name: PAYMENT_ISSUE
+    description: "Customer reports a failed, delayed, or incorrect payment/charge."
+    inclusion_rules:
+      - "mentions a payment, charge, invoice, or billing amount not going through correctly"
+    exclusion_rules:
+      - "pure refund requests (see REFUND_REQUEST)"
+    examples: []
+
+  - name: REFUND_REQUEST
+    description: "Customer explicitly asks for money back for a purchase or subscription."
+    inclusion_rules:
+      - "explicit ask for refund, reimbursement, or money back"
+    exclusion_rules:
+      - "cancellation without refund ask (see CANCELLATION)"
+    examples: []
+
+  - name: LOGIN_OR_ACCOUNT
+    description: "Customer cannot log in, reset password, or access their account."
+    inclusion_rules:
+      - "login failure, password reset, account lockout, 2FA issues"
+    exclusion_rules: []
+    examples: []
+
+  - name: ORDER_OR_TRANSACTION
+    description: "Questions or problems about a specific order/transaction status."
+    inclusion_rules:
+      - "order number referenced, transaction status question"
+    exclusion_rules:
+      - "shipping/delivery specific complaints (see DELIVERY_OR_SHIPPING)"
+    examples: []
+
+  - name: DELIVERY_OR_SHIPPING
+    description: "Delayed, lost, or damaged shipment / delivery tracking issues."
+    inclusion_rules:
+      - "mentions shipping, tracking, courier, delivery delay/damage"
+    exclusion_rules: []
+    examples: []
+
+  - name: TECHNICAL_PROBLEM
+    description: "App/website/product malfunction not related to login or payment."
+    inclusion_rules:
+      - "bug reports, crashes, error messages, feature not working"
+    exclusion_rules:
+      - "login-specific failures (see LOGIN_OR_ACCOUNT)"
+    examples: []
+
+  - name: CANCELLATION
+    description: "Customer wants to cancel a subscription, order, or service."
+    inclusion_rules:
+      - "explicit cancellation request"
+    exclusion_rules:
+      - "refund-specific requests unless bundled with cancellation"
+    examples: []
+
+  - name: PRODUCT_INFORMATION
+    description: "Pre-purchase or general questions about product/service features."
+    inclusion_rules:
+      - "asks how something works, availability, specs, pricing info"
+    exclusion_rules: []
+    examples: []
+
+  - name: OTHER_OR_UNKNOWN
+    description: "Low-confidence or unseen request type; catch-all for anything the
+      classifier cannot confidently place, or genuinely brand-irrelevant chatter."
+    inclusion_rules:
+      - "classifier confidence below configs/config.yaml classifier.confidence_threshold"
+    exclusion_rules: []
+    examples: []
