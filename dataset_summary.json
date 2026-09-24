@@ -1,0 +1,32 @@
+{
+  "n_rows": 485,
+  "columns": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id",
+    "created_at_parsed"
+  ],
+  "missing_value_counts": {
+    "tweet_id": 0,
+    "author_id": 0,
+    "inbound": 0,
+    "created_at": 0,
+    "text": 0,
+    "response_tweet_id": 260,
+    "in_response_to_tweet_id": 259,
+    "created_at_parsed": 0
+  },
+  "duplicate_row_count": 0,
+  "duplicate_tweet_id_count": 0,
+  "inbound_count": 260,
+  "outbound_count": 225,
+  "date_range": {
+    "min": "2023-01-01 07:00:00+00:00",
+    "max": "2023-10-26 12:44:00+00:00"
+  },
+  "unique_authors": 261
+}
