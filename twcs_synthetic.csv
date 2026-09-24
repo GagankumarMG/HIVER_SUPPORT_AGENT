@@ -1,0 +1,486 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+1,customer_0000,True,Sun Jan 01 07:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10000, can you check my payment?",2,
+2,SyntheticBrandSupport,False,Sun Jan 01 09:58:00 +0000 2023,@customer_0000 Sorry about that! We can see the duplicate charge for order 10000 and have flagged it for our billing team to reverse within 3-5 business days.,,1
+3,customer_0001,True,Mon Jan 02 00:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",4,
+4,SyntheticBrandSupport,False,Mon Jan 02 02:28:00 +0000 2023,@customer_0001 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,3
+5,customer_0002,True,Tue Jan 03 14:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10002 before it ships?,6,
+6,SyntheticBrandSupport,False,Tue Jan 03 17:19:00 +0000 2023,@customer_0002 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,5
+7,customer_0003,True,Wed Jan 04 04:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,,
+8,customer_0004,True,Thu Jan 05 11:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10004? It's not what I expected.,9,
+9,SyntheticBrandSupport,False,Thu Jan 05 14:11:00 +0000 2023,@customer_0004 We're sorry to hear that! We've started a refund for order 10004; it should reflect in your account within 5-7 business days.,,8
+10,customer_0005,True,Fri Jan 06 17:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10005 before it ships?,11,
+11,SyntheticBrandSupport,False,Fri Jan 06 19:32:00 +0000 2023,@customer_0005 We can help cancel order 10005 if it hasn't shipped yet - please DM your order email to confirm.,,10
+12,customer_0006,True,Sat Jan 07 02:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10006? It's been a few days.,13,
+13,SyntheticBrandSupport,False,Sat Jan 07 03:16:00 +0000 2023,@customer_0006 Thanks for your patience! Order 10006 status can take up to 48 hours to update; we'll follow up if there's any delay.,,12
+14,customer_0007,True,Mon Jan 09 11:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",15,
+15,SyntheticBrandSupport,False,Mon Jan 09 13:40:00 +0000 2023,"@customer_0007 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,14
+16,customer_0008,True,Tue Jan 10 14:00:00 +0000 2023,"@SyntheticBrandSupport Order 10008 shows processing for a week now, any update?",17,
+17,SyntheticBrandSupport,False,Tue Jan 10 17:00:00 +0000 2023,@customer_0008 Let us check on order 10008 for you - please DM your order confirmation email so we can look into the current status.,,16
+18,customer_0009,True,Wed Jan 11 01:00:00 +0000 2023,@SyntheticBrandSupport Payment of $19.99 did not go through but my bank shows it was taken.,19,
+19,SyntheticBrandSupport,False,Wed Jan 11 01:59:00 +0000 2023,@customer_0009 Sorry about that! We can see the duplicate charge for order 10009 and have flagged it for our billing team to reverse within 3-5 business days.,,18
+20,customer_0010,True,Thu Jan 12 20:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,21,
+21,SyntheticBrandSupport,False,Thu Jan 12 20:41:00 +0000 2023,@customer_0010 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,20
+22,customer_0011,True,Fri Jan 13 13:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10011 in 5 days.,23,
+23,SyntheticBrandSupport,False,Fri Jan 13 13:40:00 +0000 2023,@customer_0011 We're sorry to hear that! Please DM us order 10011 and we'll open an investigation with the carrier right away.,,22
+24,customer_0012,True,Sat Jan 14 04:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10012, can you check my payment?",25,
+25,SyntheticBrandSupport,False,Sat Jan 14 06:37:00 +0000 2023,@customer_0012 We understand the frustration. Please DM us your order 10012 and email on file so we can verify the payment and correct the charge.,,24
+26,customer_0013,True,Sun Jan 15 08:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,27,
+27,SyntheticBrandSupport,False,Sun Jan 15 10:59:00 +0000 2023,"@customer_0013 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,26
+28,customer_0014,True,Tue Jan 17 03:00:00 +0000 2023,"@SyntheticBrandSupport Order 10014 arrived damaged in the box, what should I do?",29,
+29,SyntheticBrandSupport,False,Tue Jan 17 03:05:00 +0000 2023,@customer_0014 That's not the experience we want for you - we'll arrange a replacement for order 10014 once you confirm your shipping address via DM.,,28
+30,customer_0015,True,Wed Jan 18 05:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10015 in 5 days.,,
+31,customer_0016,True,Thu Jan 19 11:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10016? It's been a few days.,32,
+32,SyntheticBrandSupport,False,Thu Jan 19 13:38:00 +0000 2023,@customer_0016 Let us check on order 10016 for you - please DM your order confirmation email so we can look into the current status.,,31
+33,customer_0017,True,Fri Jan 20 09:00:00 +0000 2023,"@SyntheticBrandSupport just saying hi, love your product!",,
+34,customer_0018,True,Sat Jan 21 02:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10018? It's not what I expected.,35,
+35,SyntheticBrandSupport,False,Sat Jan 21 04:53:00 +0000 2023,@customer_0018 We're sorry to hear that! We've started a refund for order 10018; it should reflect in your account within 5-7 business days.,,34
+36,customer_0019,True,Sun Jan 22 19:00:00 +0000 2023,"@SyntheticBrandSupport Order 10019 arrived damaged in the box, what should I do?",,
+37,customer_0020,True,Tue Jan 24 12:00:00 +0000 2023,"@SyntheticBrandSupport Order 10020 shows processing for a week now, any update?",38,
+38,SyntheticBrandSupport,False,Tue Jan 24 12:35:00 +0000 2023,@customer_0020 Thanks for your patience! Order 10020 status can take up to 48 hours to update; we'll follow up if there's any delay.,,37
+39,customer_0021,True,Wed Jan 25 17:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10021, can you check my payment?",40,
+40,SyntheticBrandSupport,False,Wed Jan 25 17:23:00 +0000 2023,@customer_0021 Sorry about that! We can see the duplicate charge for order 10021 and have flagged it for our billing team to reverse within 3-5 business days.,,39
+41,customer_0022,True,Thu Jan 26 10:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10022, it arrived damaged.",42,
+42,SyntheticBrandSupport,False,Thu Jan 26 12:56:00 +0000 2023,@customer_0022 Thanks for flagging this - we'll process your refund for order 10022 right away.,,41
+43,customer_0023,True,Fri Jan 27 15:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,44,
+44,SyntheticBrandSupport,False,Fri Jan 27 17:53:00 +0000 2023,"@customer_0023 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,43
+45,customer_0024,True,Sat Jan 28 21:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,,
+46,customer_0025,True,Sun Jan 29 07:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,47,
+47,SyntheticBrandSupport,False,Sun Jan 29 07:40:00 +0000 2023,@customer_0025 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,46
+48,customer_0026,True,Mon Jan 30 14:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10026? It's been a few days.,49,
+49,SyntheticBrandSupport,False,Mon Jan 30 14:28:00 +0000 2023,@customer_0026 Let us check on order 10026 for you - please DM your order confirmation email so we can look into the current status.,,48
+50,customer_0027,True,Wed Feb 01 15:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",51,
+51,SyntheticBrandSupport,False,Wed Feb 01 18:56:00 +0000 2023,@customer_0027 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,50
+52,customer_0028,True,Thu Feb 02 14:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10028 before it ships?,53,
+53,SyntheticBrandSupport,False,Thu Feb 02 14:44:00 +0000 2023,@customer_0028 We can help cancel order 10028 if it hasn't shipped yet - please DM your order email to confirm.,,52
+54,customer_0029,True,Fri Feb 03 23:00:00 +0000 2023,@SyntheticBrandSupport My payment for order 10029 failed but the amount was deducted from my card.,55,
+55,SyntheticBrandSupport,False,Fri Feb 03 23:17:00 +0000 2023,@customer_0029 Sorry about that! We can see the duplicate charge for order 10029 and have flagged it for our billing team to reverse within 3-5 business days.,,54
+56,customer_0030,True,Sat Feb 04 16:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",57,
+57,SyntheticBrandSupport,False,Sat Feb 04 18:37:00 +0000 2023,"@customer_0030 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,56
+58,customer_0031,True,Sun Feb 05 18:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",59,
+59,SyntheticBrandSupport,False,Sun Feb 05 20:43:00 +0000 2023,@customer_0031 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,58
+60,customer_0032,True,Mon Feb 06 06:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,61,
+61,SyntheticBrandSupport,False,Mon Feb 06 07:12:00 +0000 2023,@customer_0032 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,60
+62,customer_0033,True,Wed Feb 08 10:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10033 was marked delivered but I never received it.,63,
+63,SyntheticBrandSupport,False,Wed Feb 08 10:23:00 +0000 2023,@customer_0033 We're sorry to hear that! Please DM us order 10033 and we'll open an investigation with the carrier right away.,,62
+64,customer_0034,True,Thu Feb 09 02:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",65,
+65,SyntheticBrandSupport,False,Thu Feb 09 03:57:00 +0000 2023,"@customer_0034 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,64
+66,customer_0035,True,Fri Feb 10 09:00:00 +0000 2023,@SyntheticBrandSupport My payment for order 10035 failed but the amount was deducted from my card.,,
+67,customer_0036,True,Sat Feb 11 04:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",68,
+68,SyntheticBrandSupport,False,Sat Feb 11 07:08:00 +0000 2023,@customer_0036 We're sorry to hear that! We've started a refund for order 10036; it should reflect in your account within 5-7 business days.,,67
+69,customer_0037,True,Sun Feb 12 15:00:00 +0000 2023,"@SyntheticBrandSupport Order 10037 arrived damaged in the box, what should I do?",,
+70,customer_0038,True,Mon Feb 13 01:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",71,
+71,SyntheticBrandSupport,False,Mon Feb 13 03:48:00 +0000 2023,@customer_0038 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,70
+72,customer_0039,True,Tue Feb 14 22:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,73,
+73,SyntheticBrandSupport,False,Tue Feb 14 22:24:00 +0000 2023,"@customer_0039 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,72
+74,customer_0040,True,Thu Feb 16 01:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",75,
+75,SyntheticBrandSupport,False,Thu Feb 16 02:55:00 +0000 2023,"@customer_0040 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,74
+76,customer_0041,True,Fri Feb 17 06:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10041, can you check my payment?",77,
+77,SyntheticBrandSupport,False,Fri Feb 17 09:24:00 +0000 2023,@customer_0041 We understand the frustration. Please DM us your order 10041 and email on file so we can verify the payment and correct the charge.,,76
+78,customer_0042,True,Sat Feb 18 05:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",79,
+79,SyntheticBrandSupport,False,Sat Feb 18 05:50:00 +0000 2023,"@customer_0042 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,78
+80,customer_0043,True,Sun Feb 19 08:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",81,
+81,SyntheticBrandSupport,False,Sun Feb 19 09:42:00 +0000 2023,@customer_0043 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,80
+82,customer_0044,True,Mon Feb 20 14:00:00 +0000 2023,"@SyntheticBrandSupport Order 10044 shows processing for a week now, any update?",83,
+83,SyntheticBrandSupport,False,Mon Feb 20 15:02:00 +0000 2023,@customer_0044 Let us check on order 10044 for you - please DM your order confirmation email so we can look into the current status.,,82
+84,customer_0045,True,Tue Feb 21 02:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,85,
+85,SyntheticBrandSupport,False,Tue Feb 21 04:58:00 +0000 2023,@customer_0045 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,84
+86,customer_0046,True,Thu Feb 23 08:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10046, can you check my payment?",87,
+87,SyntheticBrandSupport,False,Thu Feb 23 08:14:00 +0000 2023,@customer_0046 We understand the frustration. Please DM us your order 10046 and email on file so we can verify the payment and correct the charge.,,86
+88,customer_0047,True,Fri Feb 24 19:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,89,
+89,SyntheticBrandSupport,False,Fri Feb 24 20:10:00 +0000 2023,@customer_0047 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,88
+90,customer_0048,True,Sat Feb 25 13:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10048? It's been a few days.,,
+91,customer_0049,True,Sun Feb 26 16:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",92,
+92,SyntheticBrandSupport,False,Sun Feb 26 17:48:00 +0000 2023,@customer_0049 Thanks for flagging this - we'll process your refund for order 10049 right away.,,91
+93,customer_0050,True,Mon Feb 27 21:00:00 +0000 2023,"@SyntheticBrandSupport Order 10050 shows processing for a week now, any update?",94,
+94,SyntheticBrandSupport,False,Mon Feb 27 23:42:00 +0000 2023,@customer_0050 Let us check on order 10050 for you - please DM your order confirmation email so we can look into the current status.,,93
+95,customer_0051,True,Tue Feb 28 09:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10051, can you check my payment?",96,
+96,SyntheticBrandSupport,False,Tue Feb 28 11:04:00 +0000 2023,@customer_0051 We understand the frustration. Please DM us your order 10051 and email on file so we can verify the payment and correct the charge.,,95
+97,customer_0052,True,Wed Mar 01 21:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,98,
+98,SyntheticBrandSupport,False,Wed Mar 01 21:28:00 +0000 2023,@customer_0052 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,97
+99,customer_0053,True,Fri Mar 03 06:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10053 was marked delivered but I never received it.,100,
+100,SyntheticBrandSupport,False,Fri Mar 03 08:06:00 +0000 2023,@customer_0053 We're sorry to hear that! Please DM us order 10053 and we'll open an investigation with the carrier right away.,,99
+101,customer_0054,True,Sat Mar 04 20:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,102,
+102,SyntheticBrandSupport,False,Sat Mar 04 22:11:00 +0000 2023,@customer_0054 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,101
+103,customer_0055,True,Sun Mar 05 13:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10055, can you check my payment?",104,
+104,SyntheticBrandSupport,False,Sun Mar 05 13:17:00 +0000 2023,@customer_0055 We understand the frustration. Please DM us your order 10055 and email on file so we can verify the payment and correct the charge.,,103
+105,customer_0056,True,Mon Mar 06 04:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",106,
+106,SyntheticBrandSupport,False,Mon Mar 06 07:18:00 +0000 2023,@customer_0056 Thanks for flagging this - we'll process your refund for order 10056 right away.,,105
+107,customer_0057,True,Tue Mar 07 14:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",108,
+108,SyntheticBrandSupport,False,Tue Mar 07 16:00:00 +0000 2023,@customer_0057 We can help cancel order 10057 if it hasn't shipped yet - please DM your order email to confirm.,,107
+109,customer_0058,True,Wed Mar 08 15:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10058 in 5 days.,110,
+110,SyntheticBrandSupport,False,Wed Mar 08 15:24:00 +0000 2023,@customer_0058 That's not the experience we want for you - we'll arrange a replacement for order 10058 once you confirm your shipping address via DM.,,109
+111,customer_0059,True,Fri Mar 10 17:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,112,
+112,SyntheticBrandSupport,False,Fri Mar 10 18:43:00 +0000 2023,@customer_0059 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,111
+113,customer_0060,True,Sat Mar 11 13:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",114,
+114,SyntheticBrandSupport,False,Sat Mar 11 13:20:00 +0000 2023,@customer_0060 Thanks for flagging this - we'll process your refund for order 10060 right away.,,113
+115,customer_0061,True,Sun Mar 12 12:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $150.0 when my plan should cost less?,116,
+116,SyntheticBrandSupport,False,Sun Mar 12 13:21:00 +0000 2023,@customer_0061 We understand the frustration. Please DM us your order 10061 and email on file so we can verify the payment and correct the charge.,,115
+117,customer_0062,True,Mon Mar 13 23:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",118,
+118,SyntheticBrandSupport,False,Tue Mar 14 00:56:00 +0000 2023,@customer_0062 We can help cancel order 10062 if it hasn't shipped yet - please DM your order email to confirm.,,117
+119,customer_0063,True,Tue Mar 14 14:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",,
+120,customer_0064,True,Wed Mar 15 20:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $9.99 when my plan should cost less?,121,
+121,SyntheticBrandSupport,False,Wed Mar 15 20:51:00 +0000 2023,@customer_0064 We understand the frustration. Please DM us your order 10064 and email on file so we can verify the payment and correct the charge.,,120
+122,customer_0065,True,Fri Mar 17 10:00:00 +0000 2023,"@SyntheticBrandSupport Order 10065 shows processing for a week now, any update?",123,
+123,SyntheticBrandSupport,False,Fri Mar 17 11:16:00 +0000 2023,@customer_0065 Thanks for your patience! Order 10065 status can take up to 48 hours to update; we'll follow up if there's any delay.,,122
+124,customer_0066,True,Sat Mar 18 15:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10066 was marked delivered but I never received it.,125,
+125,SyntheticBrandSupport,False,Sat Mar 18 16:34:00 +0000 2023,@customer_0066 We're sorry to hear that! Please DM us order 10066 and we'll open an investigation with the carrier right away.,,124
+126,customer_0067,True,Sun Mar 19 07:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10067, can you check my payment?",127,
+127,SyntheticBrandSupport,False,Sun Mar 19 08:06:00 +0000 2023,@customer_0067 Sorry about that! We can see the duplicate charge for order 10067 and have flagged it for our billing team to reverse within 3-5 business days.,,126
+128,customer_0068,True,Mon Mar 20 22:00:00 +0000 2023,"@SyntheticBrandSupport Order 10068 shows processing for a week now, any update?",129,
+129,SyntheticBrandSupport,False,Tue Mar 21 00:40:00 +0000 2023,@customer_0068 Let us check on order 10068 for you - please DM your order confirmation email so we can look into the current status.,,128
+130,customer_0069,True,Tue Mar 21 09:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10069, it arrived damaged.",131,
+131,SyntheticBrandSupport,False,Tue Mar 21 11:32:00 +0000 2023,@customer_0069 Thanks for flagging this - we'll process your refund for order 10069 right away.,,130
+132,customer_0070,True,Wed Mar 22 02:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",133,
+133,SyntheticBrandSupport,False,Wed Mar 22 05:42:00 +0000 2023,@customer_0070 We can help cancel order 10070 if it hasn't shipped yet - please DM your order email to confirm.,,132
+134,customer_0071,True,Thu Mar 23 17:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $49.99 when my plan should cost less?,135,
+135,SyntheticBrandSupport,False,Thu Mar 23 19:14:00 +0000 2023,@customer_0071 Sorry about that! We can see the duplicate charge for order 10071 and have flagged it for our billing team to reverse within 3-5 business days.,,134
+136,customer_0072,True,Sat Mar 25 15:00:00 +0000 2023,"@SyntheticBrandSupport just saying hi, love your product!",,
+137,customer_0073,True,Sun Mar 26 13:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,138,
+138,SyntheticBrandSupport,False,Sun Mar 26 15:42:00 +0000 2023,@customer_0073 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,137
+139,customer_0074,True,Mon Mar 27 13:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,140,
+140,SyntheticBrandSupport,False,Mon Mar 27 16:43:00 +0000 2023,@customer_0074 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,139
+141,customer_0075,True,Tue Mar 28 07:00:00 +0000 2023,"@SyntheticBrandSupport Order 10075 arrived damaged in the box, what should I do?",142,
+142,SyntheticBrandSupport,False,Tue Mar 28 08:31:00 +0000 2023,@customer_0075 That's not the experience we want for you - we'll arrange a replacement for order 10075 once you confirm your shipping address via DM.,,141
+143,customer_0076,True,Wed Mar 29 06:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",144,
+144,SyntheticBrandSupport,False,Wed Mar 29 07:16:00 +0000 2023,@customer_0076 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,143
+145,customer_0077,True,Thu Mar 30 00:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10077 in 5 days.,,
+146,customer_0078,True,Fri Mar 31 07:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,147,
+147,SyntheticBrandSupport,False,Fri Mar 31 08:59:00 +0000 2023,@customer_0078 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,146
+148,customer_0079,True,Sun Apr 02 22:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10079? It's been a few days.,149,
+149,SyntheticBrandSupport,False,Mon Apr 03 00:06:00 +0000 2023,@customer_0079 Thanks for your patience! Order 10079 status can take up to 48 hours to update; we'll follow up if there's any delay.,,148
+150,customer_0080,True,Mon Apr 03 22:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,151,
+151,SyntheticBrandSupport,False,Mon Apr 03 23:04:00 +0000 2023,@customer_0080 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,150
+152,customer_0081,True,Tue Apr 04 22:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10081, it arrived damaged.",153,
+153,SyntheticBrandSupport,False,Tue Apr 04 23:15:00 +0000 2023,@customer_0081 Thanks for flagging this - we'll process your refund for order 10081 right away.,,152
+154,customer_0082,True,Wed Apr 05 06:00:00 +0000 2023,"@SyntheticBrandSupport Order 10082 arrived damaged in the box, what should I do?",155,
+155,SyntheticBrandSupport,False,Wed Apr 05 07:22:00 +0000 2023,@customer_0082 We're sorry to hear that! Please DM us order 10082 and we'll open an investigation with the carrier right away.,,"154,999999"
+156,customer_0083,True,Thu Apr 06 01:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10083 in 5 days.,157,
+157,SyntheticBrandSupport,False,Thu Apr 06 03:48:00 +0000 2023,@customer_0083 We're sorry to hear that! Please DM us order 10083 and we'll open an investigation with the carrier right away.,,156
+158,customer_0084,True,Fri Apr 07 09:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $150.0 when my plan should cost less?,159,
+159,SyntheticBrandSupport,False,Fri Apr 07 09:52:00 +0000 2023,@customer_0084 We understand the frustration. Please DM us your order 10084 and email on file so we can verify the payment and correct the charge.,,158
+160,customer_0085,True,Sun Apr 09 02:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,161,
+161,SyntheticBrandSupport,False,Sun Apr 09 02:43:00 +0000 2023,"@customer_0085 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,160
+162,customer_0086,True,Mon Apr 10 07:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10086 was marked delivered but I never received it.,163,
+163,SyntheticBrandSupport,False,Mon Apr 10 09:40:00 +0000 2023,@customer_0086 That's not the experience we want for you - we'll arrange a replacement for order 10086 once you confirm your shipping address via DM.,,162
+164,customer_0087,True,Tue Apr 11 14:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10087 before it ships?,165,
+165,SyntheticBrandSupport,False,Tue Apr 11 15:23:00 +0000 2023,@customer_0087 We can help cancel order 10087 if it hasn't shipped yet - please DM your order email to confirm.,,164
+166,customer_0088,True,Wed Apr 12 20:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10088, it arrived damaged.",167,
+167,SyntheticBrandSupport,False,Wed Apr 12 20:45:00 +0000 2023,@customer_0088 We're sorry to hear that! We've started a refund for order 10088; it should reflect in your account within 5-7 business days.,,166
+168,customer_0089,True,Thu Apr 13 13:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",169,
+169,SyntheticBrandSupport,False,Thu Apr 13 14:19:00 +0000 2023,@customer_0089 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,168
+170,customer_0090,True,Fri Apr 14 02:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10090 in 5 days.,171,
+171,SyntheticBrandSupport,False,Fri Apr 14 05:26:00 +0000 2023,@customer_0090 That's not the experience we want for you - we'll arrange a replacement for order 10090 once you confirm your shipping address via DM.,,170
+172,customer_0091,True,Sat Apr 15 03:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10091? It's been a few days.,173,
+173,SyntheticBrandSupport,False,Sat Apr 15 06:36:00 +0000 2023,@customer_0091 Thanks for your patience! Order 10091 status can take up to 48 hours to update; we'll follow up if there's any delay.,,172
+174,customer_0092,True,Mon Apr 17 23:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10092 in 5 days.,,
+175,customer_0093,True,Tue Apr 18 08:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10093 in 5 days.,176,
+176,SyntheticBrandSupport,False,Tue Apr 18 08:25:00 +0000 2023,@customer_0093 That's not the experience we want for you - we'll arrange a replacement for order 10093 once you confirm your shipping address via DM.,,175
+177,customer_0094,True,Wed Apr 19 08:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,178,
+178,SyntheticBrandSupport,False,Wed Apr 19 11:20:00 +0000 2023,@customer_0094 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,177
+179,customer_0095,True,Thu Apr 20 15:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $19.99 when my plan should cost less?,,
+180,customer_0096,True,Fri Apr 21 15:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,181,
+181,SyntheticBrandSupport,False,Fri Apr 21 17:56:00 +0000 2023,@customer_0096 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,180
+182,customer_0097,True,Sat Apr 22 09:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10097 before it ships?,183,
+183,SyntheticBrandSupport,False,Sat Apr 22 11:01:00 +0000 2023,@customer_0097 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,182
+184,customer_0098,True,Mon Apr 24 16:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10098, it arrived damaged.",185,
+185,SyntheticBrandSupport,False,Mon Apr 24 17:50:00 +0000 2023,@customer_0098 Thanks for flagging this - we'll process your refund for order 10098 right away.,,184
+186,customer_0099,True,Tue Apr 25 01:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,187,
+187,SyntheticBrandSupport,False,Tue Apr 25 02:18:00 +0000 2023,"@customer_0099 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,186
+188,customer_0100,True,Wed Apr 26 20:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10100? It's not what I expected.,189,
+189,SyntheticBrandSupport,False,Wed Apr 26 21:24:00 +0000 2023,@customer_0100 We're sorry to hear that! We've started a refund for order 10100; it should reflect in your account within 5-7 business days.,,188
+190,customer_0101,True,Thu Apr 27 03:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",,
+191,customer_0102,True,Fri Apr 28 22:00:00 +0000 2023,"@SyntheticBrandSupport Order 10102 arrived damaged in the box, what should I do?",192,
+192,SyntheticBrandSupport,False,Sat Apr 29 00:05:00 +0000 2023,@customer_0102 That's not the experience we want for you - we'll arrange a replacement for order 10102 once you confirm your shipping address via DM.,,191
+193,customer_0103,True,Sat Apr 29 19:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",194,
+194,SyntheticBrandSupport,False,Sat Apr 29 22:22:00 +0000 2023,@customer_0103 We can help cancel order 10103 if it hasn't shipped yet - please DM your order email to confirm.,,193
+195,customer_0104,True,Sun Apr 30 09:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10104 in 5 days.,196,
+196,SyntheticBrandSupport,False,Sun Apr 30 12:46:00 +0000 2023,@customer_0104 That's not the experience we want for you - we'll arrange a replacement for order 10104 once you confirm your shipping address via DM.,,195
+197,customer_0105,True,Tue May 02 17:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,198,
+198,SyntheticBrandSupport,False,Tue May 02 20:47:00 +0000 2023,@customer_0105 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,197
+199,customer_0106,True,Wed May 03 13:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",200,
+200,SyntheticBrandSupport,False,Wed May 03 16:05:00 +0000 2023,@customer_0106 We can help cancel order 10106 if it hasn't shipped yet - please DM your order email to confirm.,,199
+201,customer_0107,True,Thu May 04 01:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",202,
+202,SyntheticBrandSupport,False,Thu May 04 04:47:00 +0000 2023,@customer_0107 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,201
+203,customer_0108,True,Fri May 05 14:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10108, it arrived damaged.",204,
+204,SyntheticBrandSupport,False,Fri May 05 17:47:00 +0000 2023,@customer_0108 Thanks for flagging this - we'll process your refund for order 10108 right away.,,203
+205,customer_0109,True,Sat May 06 10:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,206,
+206,SyntheticBrandSupport,False,Sat May 06 13:43:00 +0000 2023,"@customer_0109 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,205
+207,customer_0110,True,Sun May 07 20:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10110 before it ships?,208,
+208,SyntheticBrandSupport,False,Sun May 07 22:43:00 +0000 2023,@customer_0110 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,207
+209,customer_0111,True,Tue May 09 23:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10111 was marked delivered but I never received it.,210,
+210,SyntheticBrandSupport,False,Wed May 10 02:19:00 +0000 2023,@customer_0111 We're sorry to hear that! Please DM us order 10111 and we'll open an investigation with the carrier right away.,,209
+211,customer_0112,True,Wed May 10 22:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,,
+212,customer_0113,True,Thu May 11 11:00:00 +0000 2023,"@SyntheticBrandSupport Order 10113 arrived damaged in the box, what should I do?",213,
+213,SyntheticBrandSupport,False,Thu May 11 13:29:00 +0000 2023,@customer_0113 That's not the experience we want for you - we'll arrange a replacement for order 10113 once you confirm your shipping address via DM.,,212
+214,customer_0114,True,Fri May 12 19:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",215,
+215,SyntheticBrandSupport,False,Fri May 12 21:12:00 +0000 2023,"@customer_0114 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,214
+216,customer_0115,True,Sat May 13 14:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,217,
+217,SyntheticBrandSupport,False,Sat May 13 17:55:00 +0000 2023,@customer_0115 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,216
+218,customer_0116,True,Sun May 14 11:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10116? It's not what I expected.,219,
+219,SyntheticBrandSupport,False,Sun May 14 14:01:00 +0000 2023,@customer_0116 Thanks for flagging this - we'll process your refund for order 10116 right away.,,218
+220,customer_0117,True,Tue May 16 15:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10117? It's been a few days.,221,
+221,SyntheticBrandSupport,False,Tue May 16 17:32:00 +0000 2023,@customer_0117 Thanks for your patience! Order 10117 status can take up to 48 hours to update; we'll follow up if there's any delay.,,220
+222,customer_0118,True,Wed May 17 08:00:00 +0000 2023,@SyntheticBrandSupport My payment for order 10118 failed but the amount was deducted from my card.,223,
+223,SyntheticBrandSupport,False,Wed May 17 11:58:00 +0000 2023,@customer_0118 Sorry about that! We can see the duplicate charge for order 10118 and have flagged it for our billing team to reverse within 3-5 business days.,,222
+224,customer_0119,True,Thu May 18 19:00:00 +0000 2023,"@SyntheticBrandSupport Order 10119 arrived damaged in the box, what should I do?",225,
+225,SyntheticBrandSupport,False,Thu May 18 21:43:00 +0000 2023,@customer_0119 We're sorry to hear that! Please DM us order 10119 and we'll open an investigation with the carrier right away.,,224
+226,customer_0120,True,Fri May 19 20:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",227,
+227,SyntheticBrandSupport,False,Fri May 19 20:13:00 +0000 2023,@customer_0120 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,226
+228,customer_0121,True,Sat May 20 10:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10121? It's not what I expected.,229,
+229,SyntheticBrandSupport,False,Sat May 20 10:38:00 +0000 2023,@customer_0121 We're sorry to hear that! We've started a refund for order 10121; it should reflect in your account within 5-7 business days.,,228
+230,customer_0122,True,Sun May 21 16:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,231,
+231,SyntheticBrandSupport,False,Sun May 21 19:58:00 +0000 2023,@customer_0122 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,230
+232,customer_0123,True,Mon May 22 03:00:00 +0000 2023,"@SyntheticBrandSupport Order 10123 arrived damaged in the box, what should I do?",,
+233,customer_0124,True,Wed May 24 11:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",234,
+234,SyntheticBrandSupport,False,Wed May 24 12:12:00 +0000 2023,@customer_0124 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,233
+235,customer_0125,True,Thu May 25 12:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10125 in 5 days.,,
+236,customer_0126,True,Fri May 26 17:00:00 +0000 2023,@SyntheticBrandSupport Payment of $150.0 did not go through but my bank shows it was taken.,,
+237,customer_0127,True,Sat May 27 20:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,238,
+238,SyntheticBrandSupport,False,Sat May 27 20:14:00 +0000 2023,"@customer_0127 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,237
+239,customer_0128,True,Sun May 28 17:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10128, it arrived damaged.",240,
+240,SyntheticBrandSupport,False,Sun May 28 19:56:00 +0000 2023,@customer_0128 Thanks for flagging this - we'll process your refund for order 10128 right away.,,239
+241,customer_0129,True,Mon May 29 23:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",242,
+242,SyntheticBrandSupport,False,Tue May 30 02:38:00 +0000 2023,@customer_0129 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,241
+243,customer_0130,True,Wed May 31 22:00:00 +0000 2023,"@SyntheticBrandSupport Order 10130 arrived damaged in the box, what should I do?",244,
+244,SyntheticBrandSupport,False,Wed May 31 23:05:00 +0000 2023,@customer_0130 That's not the experience we want for you - we'll arrange a replacement for order 10130 once you confirm your shipping address via DM.,,243
+245,customer_0131,True,Thu Jun 01 20:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,246,
+246,SyntheticBrandSupport,False,Thu Jun 01 20:53:00 +0000 2023,@customer_0131 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,245
+247,customer_0132,True,Fri Jun 02 21:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,248,
+248,SyntheticBrandSupport,False,Fri Jun 02 21:17:00 +0000 2023,"@customer_0132 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,247
+249,customer_0133,True,Sat Jun 03 06:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",250,
+250,SyntheticBrandSupport,False,Sat Jun 03 08:35:00 +0000 2023,"@customer_0133 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,249
+251,customer_0134,True,Sun Jun 04 19:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,252,
+252,SyntheticBrandSupport,False,Sun Jun 04 19:38:00 +0000 2023,@customer_0134 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,251
+253,customer_0135,True,Mon Jun 05 04:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10135, it arrived damaged.",254,
+254,SyntheticBrandSupport,False,Mon Jun 05 06:35:00 +0000 2023,@customer_0135 We're sorry to hear that! We've started a refund for order 10135; it should reflect in your account within 5-7 business days.,,253
+255,customer_0136,True,Tue Jun 06 23:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $19.99 when my plan should cost less?,256,
+256,SyntheticBrandSupport,False,Wed Jun 07 01:06:00 +0000 2023,@customer_0136 Sorry about that! We can see the duplicate charge for order 10136 and have flagged it for our billing team to reverse within 3-5 business days.,,255
+257,customer_0137,True,Thu Jun 08 16:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10137, it arrived damaged.",,
+258,customer_0138,True,Fri Jun 09 20:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10138 was marked delivered but I never received it.,259,
+259,SyntheticBrandSupport,False,Fri Jun 09 23:41:00 +0000 2023,@customer_0138 That's not the experience we want for you - we'll arrange a replacement for order 10138 once you confirm your shipping address via DM.,,258
+260,customer_0139,True,Sat Jun 10 02:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,261,
+261,SyntheticBrandSupport,False,Sat Jun 10 02:21:00 +0000 2023,"@customer_0139 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,260
+262,customer_0140,True,Sun Jun 11 19:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,263,
+263,SyntheticBrandSupport,False,Sun Jun 11 19:30:00 +0000 2023,@customer_0140 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,262
+264,customer_0141,True,Mon Jun 12 14:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10141? It's been a few days.,265,
+265,SyntheticBrandSupport,False,Mon Jun 12 15:47:00 +0000 2023,@customer_0141 Thanks for your patience! Order 10141 status can take up to 48 hours to update; we'll follow up if there's any delay.,,264
+266,customer_0142,True,Tue Jun 13 21:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10142 before it ships?,267,
+267,SyntheticBrandSupport,False,Wed Jun 14 00:00:00 +0000 2023,@customer_0142 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,266
+268,customer_0143,True,Wed Jun 14 13:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10143, it arrived damaged.",269,
+269,SyntheticBrandSupport,False,Wed Jun 14 16:32:00 +0000 2023,@customer_0143 Thanks for flagging this - we'll process your refund for order 10143 right away.,,268
+270,customer_0144,True,Fri Jun 16 13:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,271,
+271,SyntheticBrandSupport,False,Fri Jun 16 16:47:00 +0000 2023,@customer_0144 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,270
+272,customer_0145,True,Sat Jun 17 09:00:00 +0000 2023,"@SyntheticBrandSupport Order 10145 arrived damaged in the box, what should I do?",273,
+273,SyntheticBrandSupport,False,Sat Jun 17 09:44:00 +0000 2023,@customer_0145 We're sorry to hear that! Please DM us order 10145 and we'll open an investigation with the carrier right away.,,272
+274,customer_0146,True,Sun Jun 18 17:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",275,
+275,SyntheticBrandSupport,False,Sun Jun 18 19:31:00 +0000 2023,@customer_0146 Thanks for flagging this - we'll process your refund for order 10146 right away.,,274
+276,customer_0147,True,Mon Jun 19 21:00:00 +0000 2023,@SyntheticBrandSupport Payment of $150.0 did not go through but my bank shows it was taken.,277,
+277,SyntheticBrandSupport,False,Tue Jun 20 00:04:00 +0000 2023,@customer_0147 We understand the frustration. Please DM us your order 10147 and email on file so we can verify the payment and correct the charge.,,276
+278,customer_0148,True,Tue Jun 20 05:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,279,
+279,SyntheticBrandSupport,False,Tue Jun 20 05:22:00 +0000 2023,@customer_0148 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,278
+280,customer_0149,True,Wed Jun 21 23:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10149, can you check my payment?",281,
+281,SyntheticBrandSupport,False,Thu Jun 22 00:32:00 +0000 2023,@customer_0149 We understand the frustration. Please DM us your order 10149 and email on file so we can verify the payment and correct the charge.,,280
+282,customer_0150,True,Fri Jun 23 19:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,283,
+283,SyntheticBrandSupport,False,Fri Jun 23 19:45:00 +0000 2023,@customer_0150 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,282
+284,customer_0151,True,Sat Jun 24 08:00:00 +0000 2023,@SyntheticBrandSupport lol nice ad,,
+285,customer_0152,True,Sun Jun 25 16:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10152 was marked delivered but I never received it.,286,
+286,SyntheticBrandSupport,False,Sun Jun 25 17:17:00 +0000 2023,@customer_0152 We're sorry to hear that! Please DM us order 10152 and we'll open an investigation with the carrier right away.,,285
+287,customer_0153,True,Mon Jun 26 07:00:00 +0000 2023,"@SyntheticBrandSupport Order 10153 arrived damaged in the box, what should I do?",,
+288,customer_0154,True,Tue Jun 27 08:00:00 +0000 2023,"@SyntheticBrandSupport Order 10154 shows processing for a week now, any update?",289,
+289,SyntheticBrandSupport,False,Tue Jun 27 10:12:00 +0000 2023,@customer_0154 Let us check on order 10154 for you - please DM your order confirmation email so we can look into the current status.,,288
+290,customer_0155,True,Wed Jun 28 22:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",291,
+291,SyntheticBrandSupport,False,Wed Jun 28 22:23:00 +0000 2023,@customer_0155 We can help cancel order 10155 if it hasn't shipped yet - please DM your order email to confirm.,,290
+292,customer_0156,True,Thu Jun 29 14:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",293,
+293,SyntheticBrandSupport,False,Thu Jun 29 16:31:00 +0000 2023,@customer_0156 We can help cancel order 10156 if it hasn't shipped yet - please DM your order email to confirm.,,292
+294,customer_0157,True,Sat Jul 01 12:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10157 was marked delivered but I never received it.,,
+295,customer_0158,True,Sun Jul 02 02:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,296,
+296,SyntheticBrandSupport,False,Sun Jul 02 03:56:00 +0000 2023,"@customer_0158 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,295
+297,customer_0159,True,Mon Jul 03 23:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10159 before it ships?,298,
+298,SyntheticBrandSupport,False,Mon Jul 03 23:24:00 +0000 2023,@customer_0159 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,297
+299,customer_0160,True,Tue Jul 04 11:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10160? It's been a few days.,300,
+300,SyntheticBrandSupport,False,Tue Jul 04 12:10:00 +0000 2023,@customer_0160 Let us check on order 10160 for you - please DM your order confirmation email so we can look into the current status.,,299
+301,customer_0161,True,Wed Jul 05 20:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",302,
+302,SyntheticBrandSupport,False,Wed Jul 05 22:59:00 +0000 2023,@customer_0161 Thanks for flagging this - we'll process your refund for order 10161 right away.,,301
+303,customer_0162,True,Thu Jul 06 04:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,304,
+304,SyntheticBrandSupport,False,Thu Jul 06 06:46:00 +0000 2023,@customer_0162 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,303
+305,customer_0163,True,Sat Jul 08 16:00:00 +0000 2023,@SyntheticBrandSupport My payment for order 10163 failed but the amount was deducted from my card.,306,
+306,SyntheticBrandSupport,False,Sat Jul 08 16:14:00 +0000 2023,@customer_0163 We understand the frustration. Please DM us your order 10163 and email on file so we can verify the payment and correct the charge.,,305
+307,customer_0164,True,Sun Jul 09 19:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10164? It's not what I expected.,308,
+308,SyntheticBrandSupport,False,Sun Jul 09 21:33:00 +0000 2023,@customer_0164 Thanks for flagging this - we'll process your refund for order 10164 right away.,,307
+309,customer_0165,True,Mon Jul 10 18:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10165, can you check my payment?",310,
+310,SyntheticBrandSupport,False,Mon Jul 10 20:13:00 +0000 2023,@customer_0165 We understand the frustration. Please DM us your order 10165 and email on file so we can verify the payment and correct the charge.,,309
+311,customer_0166,True,Tue Jul 11 22:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10166, it arrived damaged.",312,
+312,SyntheticBrandSupport,False,Tue Jul 11 22:15:00 +0000 2023,@customer_0166 We're sorry to hear that! We've started a refund for order 10166; it should reflect in your account within 5-7 business days.,,311
+313,customer_0167,True,Wed Jul 12 16:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,314,
+314,SyntheticBrandSupport,False,Wed Jul 12 19:59:00 +0000 2023,@customer_0167 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,313
+315,customer_0168,True,Thu Jul 13 01:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,316,
+316,SyntheticBrandSupport,False,Thu Jul 13 02:29:00 +0000 2023,@customer_0168 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,315
+317,customer_0169,True,Fri Jul 14 23:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10169 in 5 days.,,
+318,customer_0170,True,Sun Jul 16 21:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10170, it arrived damaged.",,
+319,customer_0171,True,Mon Jul 17 19:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",320,
+320,SyntheticBrandSupport,False,Mon Jul 17 21:49:00 +0000 2023,@customer_0171 We can help cancel order 10171 if it hasn't shipped yet - please DM your order email to confirm.,,319
+321,customer_0172,True,Tue Jul 18 16:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",322,
+322,SyntheticBrandSupport,False,Tue Jul 18 16:51:00 +0000 2023,@customer_0172 Thanks for flagging this - we'll process your refund for order 10172 right away.,,321
+323,customer_0173,True,Wed Jul 19 07:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,324,
+324,SyntheticBrandSupport,False,Wed Jul 19 10:41:00 +0000 2023,@customer_0173 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,323
+325,customer_0174,True,Thu Jul 20 19:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10174, can you check my payment?",326,
+326,SyntheticBrandSupport,False,Thu Jul 20 19:46:00 +0000 2023,@customer_0174 Sorry about that! We can see the duplicate charge for order 10174 and have flagged it for our billing team to reverse within 3-5 business days.,,325
+327,customer_0175,True,Fri Jul 21 01:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",328,
+328,SyntheticBrandSupport,False,Fri Jul 21 02:58:00 +0000 2023,"@customer_0175 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,327
+329,customer_0176,True,Sun Jul 23 17:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,330,
+330,SyntheticBrandSupport,False,Sun Jul 23 20:56:00 +0000 2023,@customer_0176 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,329
+331,customer_0177,True,Mon Jul 24 09:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,332,
+332,SyntheticBrandSupport,False,Mon Jul 24 09:46:00 +0000 2023,@customer_0177 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,331
+333,customer_0178,True,Tue Jul 25 01:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",334,
+334,SyntheticBrandSupport,False,Tue Jul 25 03:26:00 +0000 2023,@customer_0178 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,333
+335,customer_0179,True,Wed Jul 26 02:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10179, it arrived damaged.",336,
+336,SyntheticBrandSupport,False,Wed Jul 26 05:37:00 +0000 2023,@customer_0179 We're sorry to hear that! We've started a refund for order 10179; it should reflect in your account within 5-7 business days.,,335
+337,customer_0180,True,Thu Jul 27 11:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10180? It's been a few days.,338,
+338,SyntheticBrandSupport,False,Thu Jul 27 13:13:00 +0000 2023,@customer_0180 Thanks for your patience! Order 10180 status can take up to 48 hours to update; we'll follow up if there's any delay.,,337
+339,customer_0181,True,Fri Jul 28 07:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10181, it arrived damaged.",340,
+340,SyntheticBrandSupport,False,Fri Jul 28 10:39:00 +0000 2023,@customer_0181 We're sorry to hear that! We've started a refund for order 10181; it should reflect in your account within 5-7 business days.,,339
+341,customer_0182,True,Sat Jul 29 01:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",,
+342,customer_0183,True,Mon Jul 31 19:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,,"342,999999"
+343,customer_0184,True,Tue Aug 01 23:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",344,
+344,SyntheticBrandSupport,False,Wed Aug 02 02:23:00 +0000 2023,"@customer_0184 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,343
+345,customer_0185,True,Wed Aug 02 13:00:00 +0000 2023,@SyntheticBrandSupport Why was I billed $19.99 when my plan should cost less?,346,
+346,SyntheticBrandSupport,False,Wed Aug 02 15:37:00 +0000 2023,@customer_0185 We understand the frustration. Please DM us your order 10185 and email on file so we can verify the payment and correct the charge.,,345
+347,customer_0186,True,Thu Aug 03 09:00:00 +0000 2023,"@SyntheticBrandSupport Order 10186 shows processing for a week now, any update?",348,
+348,SyntheticBrandSupport,False,Thu Aug 03 10:06:00 +0000 2023,@customer_0186 Thanks for your patience! Order 10186 status can take up to 48 hours to update; we'll follow up if there's any delay.,,347
+349,customer_0187,True,Fri Aug 04 11:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10187, it arrived damaged.",,
+350,customer_0188,True,Sat Aug 05 15:00:00 +0000 2023,@SyntheticBrandSupport My payment for order 10188 failed but the amount was deducted from my card.,351,
+351,SyntheticBrandSupport,False,Sat Aug 05 16:09:00 +0000 2023,@customer_0188 We understand the frustration. Please DM us your order 10188 and email on file so we can verify the payment and correct the charge.,,350
+352,customer_0189,True,Mon Aug 07 07:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10189? It's not what I expected.,353,
+353,SyntheticBrandSupport,False,Mon Aug 07 10:22:00 +0000 2023,@customer_0189 We're sorry to hear that! We've started a refund for order 10189; it should reflect in your account within 5-7 business days.,,352
+354,customer_0190,True,Tue Aug 08 11:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",355,
+355,SyntheticBrandSupport,False,Tue Aug 08 14:37:00 +0000 2023,"@customer_0190 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,354
+356,customer_0191,True,Wed Aug 09 04:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,357,
+357,SyntheticBrandSupport,False,Wed Aug 09 04:14:00 +0000 2023,@customer_0191 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,356
+358,customer_0192,True,Thu Aug 10 01:00:00 +0000 2023,@SyntheticBrandSupport lol nice ad,,
+359,customer_0193,True,Fri Aug 11 01:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,360,
+360,SyntheticBrandSupport,False,Fri Aug 11 04:45:00 +0000 2023,@customer_0193 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,359
+361,customer_0194,True,Sat Aug 12 03:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,362,
+362,SyntheticBrandSupport,False,Sat Aug 12 06:15:00 +0000 2023,@customer_0194 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,361
+363,customer_0195,True,Sun Aug 13 15:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,364,
+364,SyntheticBrandSupport,False,Sun Aug 13 18:30:00 +0000 2023,@customer_0195 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,363
+365,customer_0196,True,Tue Aug 15 05:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10196 before it ships?,366,
+366,SyntheticBrandSupport,False,Tue Aug 15 06:28:00 +0000 2023,@customer_0196 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,365
+367,customer_0197,True,Wed Aug 16 22:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10197 before it ships?,368,
+368,SyntheticBrandSupport,False,Thu Aug 17 01:11:00 +0000 2023,@customer_0197 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,367
+369,customer_0198,True,Thu Aug 17 20:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",370,
+370,SyntheticBrandSupport,False,Thu Aug 17 21:38:00 +0000 2023,@customer_0198 We can help cancel order 10198 if it hasn't shipped yet - please DM your order email to confirm.,,369
+371,customer_0199,True,Fri Aug 18 04:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",372,
+372,SyntheticBrandSupport,False,Fri Aug 18 04:13:00 +0000 2023,@customer_0199 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,371
+373,customer_0200,True,Sat Aug 19 12:00:00 +0000 2023,@SyntheticBrandSupport The search feature on the site is completely broken for me.,374,
+374,SyntheticBrandSupport,False,Sat Aug 19 14:58:00 +0000 2023,@customer_0200 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,373
+375,customer_0201,True,Sun Aug 20 18:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,376,
+376,SyntheticBrandSupport,False,Sun Aug 20 19:25:00 +0000 2023,@customer_0201 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,375
+377,customer_0202,True,Tue Aug 22 23:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10202, it arrived damaged.",378,
+378,SyntheticBrandSupport,False,Wed Aug 23 02:58:00 +0000 2023,@customer_0202 Thanks for flagging this - we'll process your refund for order 10202 right away.,,377
+379,customer_0203,True,Wed Aug 23 06:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10203 in 5 days.,380,
+380,SyntheticBrandSupport,False,Wed Aug 23 06:56:00 +0000 2023,@customer_0203 That's not the experience we want for you - we'll arrange a replacement for order 10203 once you confirm your shipping address via DM.,,379
+381,customer_0204,True,Thu Aug 24 22:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,,
+382,customer_0205,True,Fri Aug 25 22:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,383,
+383,SyntheticBrandSupport,False,Sat Aug 26 01:53:00 +0000 2023,@customer_0205 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,382
+384,customer_0206,True,Sat Aug 26 16:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",385,
+385,SyntheticBrandSupport,False,Sat Aug 26 19:27:00 +0000 2023,"@customer_0206 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,384
+386,customer_0207,True,Sun Aug 27 17:00:00 +0000 2023,@SyntheticBrandSupport Payment of $49.99 did not go through but my bank shows it was taken.,387,
+387,SyntheticBrandSupport,False,Sun Aug 27 19:41:00 +0000 2023,@customer_0207 Sorry about that! We can see the duplicate charge for order 10207 and have flagged it for our billing team to reverse within 3-5 business days.,,386
+388,customer_0208,True,Mon Aug 28 16:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10208 before it ships?,389,
+389,SyntheticBrandSupport,False,Mon Aug 28 16:37:00 +0000 2023,@customer_0208 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,388
+390,customer_0209,True,Wed Aug 30 21:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,391,
+391,SyntheticBrandSupport,False,Thu Aug 31 00:21:00 +0000 2023,"@customer_0209 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,390
+392,customer_0210,True,Thu Aug 31 16:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10210, can you check my payment?",393,
+393,SyntheticBrandSupport,False,Thu Aug 31 17:27:00 +0000 2023,@customer_0210 Sorry about that! We can see the duplicate charge for order 10210 and have flagged it for our billing team to reverse within 3-5 business days.,,392
+394,customer_0211,True,Fri Sep 01 08:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10211 was marked delivered but I never received it.,395,
+395,SyntheticBrandSupport,False,Fri Sep 01 08:37:00 +0000 2023,@customer_0211 That's not the experience we want for you - we'll arrange a replacement for order 10211 once you confirm your shipping address via DM.,,394
+396,customer_0212,True,Sat Sep 02 20:00:00 +0000 2023,"@SyntheticBrandSupport I want a refund for order 10212, it arrived damaged.",397,
+397,SyntheticBrandSupport,False,Sat Sep 02 20:48:00 +0000 2023,@customer_0212 We're sorry to hear that! We've started a refund for order 10212; it should reflect in your account within 5-7 business days.,,396
+398,customer_0213,True,Sun Sep 03 01:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,399,
+399,SyntheticBrandSupport,False,Sun Sep 03 03:51:00 +0000 2023,@customer_0213 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,398
+400,customer_0214,True,Mon Sep 04 20:00:00 +0000 2023,@SyntheticBrandSupport Payment of $99.0 did not go through but my bank shows it was taken.,401,
+401,SyntheticBrandSupport,False,Mon Sep 04 22:08:00 +0000 2023,@customer_0214 We understand the frustration. Please DM us your order 10214 and email on file so we can verify the payment and correct the charge.,,400
+402,customer_0215,True,Wed Sep 06 14:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",403,
+403,SyntheticBrandSupport,False,Wed Sep 06 15:57:00 +0000 2023,@customer_0215 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,402
+404,customer_0216,True,Thu Sep 07 04:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,405,
+405,SyntheticBrandSupport,False,Thu Sep 07 07:12:00 +0000 2023,@customer_0216 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,404
+406,customer_0217,True,Fri Sep 08 11:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",407,
+407,SyntheticBrandSupport,False,Fri Sep 08 11:36:00 +0000 2023,@customer_0217 We can help cancel order 10217 if it hasn't shipped yet - please DM your order email to confirm.,,406
+408,customer_0218,True,Sat Sep 09 09:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",409,
+409,SyntheticBrandSupport,False,Sat Sep 09 10:08:00 +0000 2023,@customer_0218 Thanks for flagging this - we'll process your refund for order 10218 right away.,,408
+410,customer_0219,True,Sun Sep 10 23:00:00 +0000 2023,@SyntheticBrandSupport Getting error code 502 every time I open the dashboard.,411,
+411,SyntheticBrandSupport,False,Mon Sep 11 01:12:00 +0000 2023,@customer_0219 Sorry for the disruption! Could you tell us your device/app version via DM so our tech team can investigate the crash?,,410
+412,customer_0220,True,Mon Sep 11 00:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10220 was marked delivered but I never received it.,,
+413,customer_0221,True,Tue Sep 12 11:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10221? It's been a few days.,414,
+414,SyntheticBrandSupport,False,Tue Sep 12 13:37:00 +0000 2023,@customer_0221 Thanks for your patience! Order 10221 status can take up to 48 hours to update; we'll follow up if there's any delay.,,413
+415,customer_0222,True,Thu Sep 14 17:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,416,
+416,SyntheticBrandSupport,False,Thu Sep 14 17:39:00 +0000 2023,@customer_0222 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,415
+417,customer_0223,True,Fri Sep 15 01:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10223 before it ships?,418,
+418,SyntheticBrandSupport,False,Fri Sep 15 02:37:00 +0000 2023,@customer_0223 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,417
+419,customer_0224,True,Sat Sep 16 08:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,420,
+420,SyntheticBrandSupport,False,Sat Sep 16 08:37:00 +0000 2023,"@customer_0224 Great question! Yes, our product supports international accounts - happy to share more details if needed.",,419
+421,customer_0225,True,Sun Sep 17 11:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,422,
+422,SyntheticBrandSupport,False,Sun Sep 17 13:13:00 +0000 2023,@customer_0225 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,421
+423,customer_0226,True,Mon Sep 18 15:00:00 +0000 2023,@SyntheticBrandSupport thanks for the follow back,,
+424,customer_0227,True,Tue Sep 19 10:00:00 +0000 2023,@SyntheticBrandSupport The app keeps crashing when I try to check out.,425,
+425,SyntheticBrandSupport,False,Tue Sep 19 12:36:00 +0000 2023,@customer_0227 We're aware some users are seeing this error and our team is investigating - thanks for your patience.,,424
+426,customer_0228,True,Thu Sep 21 09:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,427,
+427,SyntheticBrandSupport,False,Thu Sep 21 10:29:00 +0000 2023,@customer_0228 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,426
+428,customer_0229,True,Fri Sep 22 19:00:00 +0000 2023,"@SyntheticBrandSupport Order 10229 arrived damaged in the box, what should I do?",429,
+429,SyntheticBrandSupport,False,Fri Sep 22 22:09:00 +0000 2023,@customer_0229 We're sorry to hear that! Please DM us order 10229 and we'll open an investigation with the carrier right away.,,428
+430,customer_0230,True,Sat Sep 23 21:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",431,
+431,SyntheticBrandSupport,False,Sat Sep 23 21:53:00 +0000 2023,@customer_0230 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,"430,999999"
+432,customer_0231,True,Sun Sep 24 22:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",433,
+433,SyntheticBrandSupport,False,Mon Sep 25 01:48:00 +0000 2023,@customer_0231 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,432
+434,customer_0232,True,Mon Sep 25 06:00:00 +0000 2023,"@SyntheticBrandSupport Two factor code never arrives, I can't access my account.",435,
+435,SyntheticBrandSupport,False,Mon Sep 25 08:19:00 +0000 2023,@customer_0232 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,434
+436,customer_0233,True,Tue Sep 26 10:00:00 +0000 2023,@SyntheticBrandSupport Is there a student discount available?,437,
+437,SyntheticBrandSupport,False,Tue Sep 26 12:41:00 +0000 2023,@customer_0233 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,436
+438,customer_0234,True,Thu Sep 28 09:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10234 was marked delivered but I never received it.,,
+439,customer_0235,True,Fri Sep 29 10:00:00 +0000 2023,"@SyntheticBrandSupport Order 10235 shows processing for a week now, any update?",440,
+440,SyntheticBrandSupport,False,Fri Sep 29 11:18:00 +0000 2023,@customer_0235 Thanks for your patience! Order 10235 status can take up to 48 hours to update; we'll follow up if there's any delay.,,439
+441,customer_0236,True,Sat Sep 30 11:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",442,
+442,SyntheticBrandSupport,False,Sat Sep 30 14:07:00 +0000 2023,@customer_0236 We can help cancel order 10236 if it hasn't shipped yet - please DM your order email to confirm.,,441
+443,customer_0237,True,Sun Oct 01 06:00:00 +0000 2023,@SyntheticBrandSupport My package for order 10237 was marked delivered but I never received it.,444,
+444,SyntheticBrandSupport,False,Sun Oct 01 08:28:00 +0000 2023,@customer_0237 That's not the experience we want for you - we'll arrange a replacement for order 10237 once you confirm your shipping address via DM.,,443
+445,customer_0238,True,Mon Oct 02 01:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10238? It's been a few days.,446,
+446,SyntheticBrandSupport,False,Mon Oct 02 01:30:00 +0000 2023,@customer_0238 Let us check on order 10238 for you - please DM your order confirmation email so we can look into the current status.,,445
+447,customer_0239,True,Tue Oct 03 00:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10239? It's not what I expected.,,
+448,customer_0240,True,Wed Oct 04 20:00:00 +0000 2023,@SyntheticBrandSupport Does your product work with international accounts?,449,
+449,SyntheticBrandSupport,False,Wed Oct 04 21:27:00 +0000 2023,@customer_0240 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,448
+450,customer_0241,True,Fri Oct 06 07:00:00 +0000 2023,@SyntheticBrandSupport Can I get my money back for order 10241? It's not what I expected.,451,
+451,SyntheticBrandSupport,False,Fri Oct 06 10:58:00 +0000 2023,@customer_0241 We're sorry to hear that! We've started a refund for order 10241; it should reflect in your account within 5-7 business days.,,450
+452,customer_0242,True,Sat Oct 07 12:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",453,
+453,SyntheticBrandSupport,False,Sat Oct 07 15:49:00 +0000 2023,@customer_0242 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,452
+454,customer_0243,True,Sun Oct 08 09:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",,
+455,customer_0244,True,Mon Oct 09 14:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",456,
+456,SyntheticBrandSupport,False,Mon Oct 09 15:29:00 +0000 2023,"@customer_0244 So sorry for the trouble logging in! Please try the password reset link at our help center; if that fails, DM your registered email and we'll assist.",,455
+457,customer_0245,True,Tue Oct 10 00:00:00 +0000 2023,@SyntheticBrandSupport Tracking hasn't updated for order 10245 in 5 days.,458,
+458,SyntheticBrandSupport,False,Tue Oct 10 02:30:00 +0000 2023,@customer_0245 That's not the experience we want for you - we'll arrange a replacement for order 10245 once you confirm your shipping address via DM.,,457
+459,customer_0246,True,Wed Oct 11 16:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10246 before it ships?,460,
+460,SyntheticBrandSupport,False,Wed Oct 11 16:52:00 +0000 2023,@customer_0246 We're sorry to see you go! We've submitted the cancellation request - you'll get a confirmation email shortly.,,459
+461,customer_0247,True,Fri Oct 13 08:00:00 +0000 2023,"@SyntheticBrandSupport Order 10247 shows processing for a week now, any update?",462,
+462,SyntheticBrandSupport,False,Fri Oct 13 09:29:00 +0000 2023,@customer_0247 Thanks for your patience! Order 10247 status can take up to 48 hours to update; we'll follow up if there's any delay.,,461
+463,customer_0248,True,Sat Oct 14 20:00:00 +0000 2023,@SyntheticBrandSupport Payment of $49.99 did not go through but my bank shows it was taken.,464,
+464,SyntheticBrandSupport,False,Sat Oct 14 22:55:00 +0000 2023,@customer_0248 Sorry about that! We can see the duplicate charge for order 10248 and have flagged it for our billing team to reverse within 3-5 business days.,,463
+465,customer_0249,True,Sun Oct 15 22:00:00 +0000 2023,@SyntheticBrandSupport How do I cancel order 10249 before it ships?,466,
+466,SyntheticBrandSupport,False,Sun Oct 15 23:39:00 +0000 2023,@customer_0249 We can help cancel order 10249 if it hasn't shipped yet - please DM your order email to confirm.,,465
+467,customer_0250,True,Mon Oct 16 04:00:00 +0000 2023,"@SyntheticBrandSupport Locked out of my account after resetting my password, please help.",468,
+468,SyntheticBrandSupport,False,Mon Oct 16 05:51:00 +0000 2023,@customer_0250 We can help with account access - please send your registered email via DM so we can look into the 2FA issue.,,467
+469,customer_0251,True,Tue Oct 17 21:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10251? It's been a few days.,470,
+470,SyntheticBrandSupport,False,Tue Oct 17 21:24:00 +0000 2023,@customer_0251 Thanks for your patience! Order 10251 status can take up to 48 hours to update; we'll follow up if there's any delay.,,469
+471,customer_0252,True,Wed Oct 18 17:00:00 +0000 2023,@SyntheticBrandSupport What's the status of order 10252? It's been a few days.,472,
+472,SyntheticBrandSupport,False,Wed Oct 18 17:34:00 +0000 2023,@customer_0252 Thanks for your patience! Order 10252 status can take up to 48 hours to update; we'll follow up if there's any delay.,,471
+473,customer_0253,True,Thu Oct 19 16:00:00 +0000 2023,@SyntheticBrandSupport What's the difference between the basic and premium plans?,474,
+474,SyntheticBrandSupport,False,Thu Oct 19 16:38:00 +0000 2023,@customer_0253 Premium includes priority support and extra features over Basic - check our pricing page for the full comparison!,,473
+475,customer_0254,True,Sat Oct 21 14:00:00 +0000 2023,@SyntheticBrandSupport Payment of $150.0 did not go through but my bank shows it was taken.,476,
+476,SyntheticBrandSupport,False,Sat Oct 21 15:10:00 +0000 2023,@customer_0254 We understand the frustration. Please DM us your order 10254 and email on file so we can verify the payment and correct the charge.,,475
+477,customer_0255,True,Sun Oct 22 13:00:00 +0000 2023,"@SyntheticBrandSupport Please refund my subscription, I was charged after I cancelled.",478,
+478,SyntheticBrandSupport,False,Sun Oct 22 16:53:00 +0000 2023,@customer_0255 We're sorry to hear that! We've started a refund for order 10255; it should reflect in your account within 5-7 business days.,,477
+479,customer_0256,True,Mon Oct 23 13:00:00 +0000 2023,"@SyntheticBrandSupport I was charged twice for order 10256, can you check my payment?",480,
+480,SyntheticBrandSupport,False,Mon Oct 23 14:40:00 +0000 2023,@customer_0256 We understand the frustration. Please DM us your order 10256 and email on file so we can verify the payment and correct the charge.,,479
+481,customer_0257,True,Tue Oct 24 02:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",482,
+482,SyntheticBrandSupport,False,Tue Oct 24 02:35:00 +0000 2023,@customer_0257 We can help cancel order 10257 if it hasn't shipped yet - please DM your order email to confirm.,,481
+483,customer_0258,True,Wed Oct 25 00:00:00 +0000 2023,"@SyntheticBrandSupport I can't log into my account, it keeps saying wrong password.",,
+484,customer_0259,True,Thu Oct 26 12:00:00 +0000 2023,"@SyntheticBrandSupport Please cancel my subscription, I no longer need it.",485,
+485,SyntheticBrandSupport,False,Thu Oct 26 12:44:00 +0000 2023,@customer_0259 We can help cancel order 10259 if it hasn't shipped yet - please DM your order email to confirm.,,484
