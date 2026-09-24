@@ -1,0 +1,15 @@
+{
+  "n_train": 157,
+  "n_val": 33,
+  "n_test": 35,
+  "intent_label_source": "keyword_weak_labels_DEMO_STANDIN_FOR_HUMAN_CLUSTER_NAMING",
+  "intent_distribution_train": {
+    "ORDER_OR_TRANSACTION": 45,
+    "PAYMENT_ISSUE": 28,
+    "PRODUCT_INFORMATION": 21,
+    "TECHNICAL_PROBLEM": 18,
+    "REFUND_REQUEST": 17,
+    "CANCELLATION": 14,
+    "LOGIN_OR_ACCOUNT": 14
+  }
+}
