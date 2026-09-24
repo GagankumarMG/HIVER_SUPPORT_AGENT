@@ -1,0 +1,61 @@
+# Global configuration for HIVER_SUPPORT_AGENT.
+# Values here are defaults; environment variables in .env override the
+# data path / brand / LLM settings (see src/utils/config.py loader).
+
+seed: 42
+
+data:
+  raw_path: "data/raw/twcs.csv"         # overridden by DATA_PATH env var
+  processed_dir: "data/processed"
+  interim_dir: "data/interim"
+  golden_dir: "data/golden"
+
+split:
+  # Chronological split (see docs/decision_log.md for rationale).
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+  # Minimum conversations required in the selected brand for a valid run.
+  min_conversations_for_brand: 300
+
+intents:
+  n_clusters_discovery: 8          # exploratory clustering starting point (6-10 per spec)
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  tfidf_max_features: 20000
+
+classifier:
+  method: "semantic"               # "semantic" (SentenceTransformer + LogisticRegression) or "tfidf"
+  confidence_threshold: 0.60       # see docs/decision_log.md: selected via validation-set
+                                    # precision/coverage trade-off curve, NOT to maximize accuracy alone
+  calibration: "sigmoid"           # sklearn CalibratedClassifierCV method
+
+retrieval:
+  top_k: 5
+  lexical_weight: 0.4
+  semantic_weight: 0.6
+  min_hybrid_score_for_grounding: 0.35
+
+generation:
+  provider: "auto"                 # "auto" -> LLM if OPENAI_API_KEY set, else fallback
+  max_tokens: 400
+  temperature: 0.2
+
+escalation:
+  # See src/escalation/policy.py + reason_codes.py for full logic.
+  high_risk_keywords:
+    - "chargeback"
+    - "lawsuit"
+    - "fraud"
+    - "unauthorized charge"
+    - "delete my account"
+    - "close my account"
+    - "legal action"
+
+evaluation:
+  golden_set_size: 200             # within 150-250 allowed range
+  human_agreement_sample_size: 50
+  llm_judge_model: "gpt-4o-mini"
+
+paths:
+  outputs_dir: "outputs"
+  models_dir: "models"
