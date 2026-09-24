@@ -1,0 +1,63 @@
+{
+  "method": "tfidf",
+  "silhouette_score": 0.39245232289063087,
+  "n_clusters": 8,
+  "representative_examples_per_cluster": {
+    "0": [
+      "I was charged twice for order 10000, can you check my payment?",
+      "I was charged twice for order 10012, can you check my payment?",
+      "I was charged twice for order 10021, can you check my payment?",
+      "I was charged twice for order 10041, can you check my payment?",
+      "I was charged twice for order 10055, can you check my payment?"
+    ],
+    "1": [
+      "Please cancel my subscription, I no longer need it.",
+      "Please cancel my subscription, I no longer need it.",
+      "Please cancel my subscription, I no longer need it.",
+      "Please cancel my subscription, I no longer need it.",
+      "Please cancel my subscription, I no longer need it."
+    ],
+    "2": [
+      "I want a refund for order 10022, it arrived damaged.",
+      "I want a refund for order 10069, it arrived damaged.",
+      "I want a refund for order 10088, it arrived damaged.",
+      "I want a refund for order 10081, it arrived damaged.",
+      "I want a refund for order 10181, it arrived damaged."
+    ],
+    "3": [
+      "Locked out of my account after resetting my password, please help.",
+      "Locked out of my account after resetting my password, please help.",
+      "Locked out of my account after resetting my password, please help.",
+      "Locked out of my account after resetting my password, please help.",
+      "Locked out of my account after resetting my password, please help."
+    ],
+    "4": [
+      "Order 10008 shows processing for a week now, any update?",
+      "Order 10020 shows processing for a week now, any update?",
+      "Order 10044 shows processing for a week now, any update?",
+      "Order 10050 shows processing for a week now, any update?",
+      "Order 10068 shows processing for a week now, any update?"
+    ],
+    "5": [
+      "What's the status of order 10006? It's been a few days.",
+      "What's the status of order 10016? It's been a few days.",
+      "What's the status of order 10026? It's been a few days.",
+      "What's the status of order 10079? It's been a few days.",
+      "What's the status of order 10091? It's been a few days."
+    ],
+    "6": [
+      "Does your product work with international accounts?",
+      "Does your product work with international accounts?",
+      "Does your product work with international accounts?",
+      "Does your product work with international accounts?",
+      "Does your product work with international accounts?"
+    ],
+    "7": [
+      "How do I cancel order 10002 before it ships?",
+      "How do I cancel order 10005 before it ships?",
+      "How do I cancel order 10028 before it ships?",
+      "How do I cancel order 10087 before it ships?",
+      "How do I cancel order 10097 before it ships?"
+    ]
+  }
+}
