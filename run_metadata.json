@@ -1,0 +1,30 @@
+{
+  "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "package_versions": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "sentence-transformers": "not_installed",
+    "joblib": "1.5.3",
+    "pydantic": "not_installed",
+    "streamlit": "not_installed",
+    "rank-bm25": "not_installed"
+  },
+  "seed": 42,
+  "brand": {
+    "id": "SyntheticBrandSupport",
+    "display_name": "SyntheticBrandSupport",
+    "selection_reason": "Chosen using support-volume and thread-completeness heuristic: ranked by (n_complete_threads * 1.0 + n_distinct_customers * 1.5) among accounts with outbound_share >= 0.95 and >=50 distinct customers replied to. See src/data/select_brand.py.",
+    "n_conversations": 223,
+    "n_inbound": 223,
+    "n_outbound": 225
+  },
+  "classifier_confidence_threshold": 0.6,
+  "retrieval_weights": {
+    "lexical": 0.4,
+    "semantic": 0.6
+  },
+  "golden_set_size_target": 200
+}
