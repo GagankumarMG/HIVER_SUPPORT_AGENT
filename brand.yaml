@@ -1,0 +1,9 @@
+brand:
+  id: SyntheticBrandSupport
+  display_name: SyntheticBrandSupport
+  selection_reason: 'Chosen using support-volume and thread-completeness heuristic:
+    ranked by (n_complete_threads * 1.0 + n_distinct_customers * 1.5) among accounts
+    with outbound_share >= 0.95 and >=50 distinct customers replied to. See src/data/select_brand.py.'
+  n_conversations: 223
+  n_inbound: 223
+  n_outbound: 225
